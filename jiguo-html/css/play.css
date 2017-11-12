@@ -1,0 +1,326 @@
+.h_con .h_body,
+.f_con .f_body {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/*主体 begin*/
+
+.banner_con {
+	width: 100%;
+	height: 300px;
+	background: url(../img/original.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner_con .banner_body {
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.banner_con .banner_body .b_d_content {
+	text-align: right;
+	padding-top: 35px;
+}
+
+.banner_con .banner_body .b_d_content h2 {
+	color: #fff;
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.banner_con .banner_body .b_d_content span {
+	display: inline-block;
+	padding: 0 15px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: rgba(255, 255, 255, .3);
+	/*透明背景色*/
+	color: #fff;
+}
+.banner_con .banner_body .b_d_content .time {
+	font-size: 18px;
+	color: #fff;
+	margin: 20px 0;
+}
+.banner_con .banner_body .b_d_content .btn_apply a {
+	display: inline-block;
+	padding: 10px 80px;
+	background-color: #fe5341;
+	font-size: 22px;
+	color: #fff;
+}
+
+
+/*滚动图片样式*/
+.g_con {
+	width: 100%;
+}
+.g_con_gb {
+	background-color: #f4f4f4;
+}
+.g_con .g_body {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.play_top{
+	width: 100%;
+}
+.play_top .play_body{
+	background-color: #fff;
+	width: 1000px;
+	margin: 0 auto;
+}
+.play_top .play_body h1 {
+	color: #333;
+	font-size: 45px;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: normal;
+}
+.play_top .play_body .play_nav{
+	text-align: center;
+    line-height: 1.7;
+}
+.play_top .play_body .play_nav a{
+	display: inline-block;
+    padding-bottom: 12px;
+    width: 165px;
+    font-size: 24px;
+}
+.play_top .play_body .play_nav a.on{
+    color: #fe5431;
+    border-bottom: 4px solid #fe5341;
+    padding-bottom: 8px;
+}
+.use_nav{
+	width: 100%;
+    border-top: 1px solid #f0f0f0;
+}
+.use_nav .use_body{
+	width: 1000px;
+	margin: 0 auto;
+	height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.use_nav .use_body a{
+    display: inline-block;
+    width: 165px;
+    font-size: 24px;
+}
+.use_nav .use_body a.on{
+	color: #474747;
+}
+.report_con{
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.report_con .report_body{
+	padding-top: 25px;
+	width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+}
+.report_con .report_body .report_left{
+	width: 700px;
+	float: left;
+}
+.report_con .report_body .report_left ul{
+	list-style: none;
+}
+.report_con .report_body .report_left ul li{
+	border-radius: 6px;
+    border: 1px solid #e6e9e9;
+}
+.report_con .report_body .report_left img{
+	width: 700px;
+}
+.report_con .report_body .report_left .info{
+	background-color: #f7f7f7;
+}
+.report_con .report_body .report_left .info .msg{
+	font-size: 24px;
+	padding-top: 20px;
+}
+.report_con .report_body .report_left .info .xia{
+	font-size: 13px;
+    padding: 16px 0 11px;
+}
+.report_con .report_body .report_left .left_name{
+	float: left;
+}
+.report_con .report_body .report_left .right_icon{
+	float: right;
+}
+.report_right{
+	width: 270px;
+	float: right;
+}
+
+.report_con .report_body .report_left .info 
+.g_con .g_body h2 .more {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.g_con .g_body h2 .more a {
+	font-weight: normal;
+	font-size: 16px;
+	color: #fe5341;
+}
+.g_con .g_body h2 .more a:last-child {
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(../img/icon/readMore.png) no-repeat;
+}
+.g_con .g_body ul {
+	position: relative;
+	padding-top: 30px;
+}
+
+.g_con .g_body ul li {
+	width: 230px;
+	float: left;
+	margin-right: 24px;
+	border: 1px solid #e6e9e9;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.g_con .g_body ul li img {
+	width: 230px;
+	height: 130px;
+}
+
+.g_con .g_body ul li:nth-child(4n+4) {
+	margin-right: 0;
+}
+
+.g_con .g_body ul li h3 {
+	font-size: 18px;
+	color: #333;
+}
+
+.g_con .g_body ul li>div {
+	padding: 10px;
+	text-align: center;
+	/*background: url(../img/icon/listbg.jpg) no-repeat;
+	background-size: 221px 19px;
+	background-position: bottom;*/
+}
+.g_con .g_body ul li .num a {
+	display: inline-block;
+	padding: 3px 10px;
+	border: 1px solid #fe5341;
+	color: #FE5341;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.g_con .g_body ul li p {
+	margin: 8px 0;
+}
+.g_con .g_body ul li .shiyong span {
+	color: #FE5341;
+	margin-right: 10px;
+}
+.g_con .g_body ul li .time {
+	font-size: 14px;
+	color: #FE5341;
+}
+.g_con .g_body .page a {
+	display: inline-block;
+	width: 37px;
+	height: 78px;
+	position: absolute;
+	top: 185px;
+}
+.g_con .g_body .page {
+	width: 1000px;
+	position: absolute;
+	height: 370px;
+	top: 0;
+}
+.g_con .g_body .page a:first-child {
+	background: url(../img/icon/prev.png) no-repeat;
+	left: -47px;
+}
+.g_con .g_body .page a:last-child {
+	background: url(../img/icon/next.png) no-repeat;
+	right: -47px;
+}
+.g_con .g_body .desc,
+.g_con_gb .g_body .desc {
+	font-size: 14px;
+	color: #666;
+	text-align: left;
+}
+.g_con .g_body .info,
+.g_con_gb .g_body .info {
+	text-align: left;
+	color: #999;
+	font-size: 12px;
+	position: relative;
+	min-height: 15px;
+}
+.g_con .g_body .name,
+.g_con_gb .g_body .name {}
+
+.g_con .g_body .price,
+.g_con_gb .g_body .price {
+	font-size: 16px;
+	color: #fe5341;
+}
+.g_con .g_body .info i,
+.g_con_gb .g_body .info i {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background-color: red;
+}
+.g_con .g_body .info .zan,
+.g_con_gb .g_body .info .zan {
+	background: url(../img/icon/zan.png);
+}
+.g_con .g_body .info .msg,
+.g_con_gb .g_body .info .msg {
+	background: url(../img/icon/reply.png);
+}
+.g_con .g_body .info span:nth-child(2),
+.g_con_gb .g_body .info span:nth-child(2) {
+	position: absolute;
+	right: 25px;
+}
+.g_con .g_body .info span:nth-child(3),
+.g_con_gb .g_body .info span:nth-child(3) {
+	position: absolute;
+	right: 0px;
+}
+.load_more {
+	text-align: center;
+	font-size: 16px;
+	color: #fe5341;
+	background: #f4f4f4;
+	padding: 10px 0 30px;
+}
+.load_more a {
+	color: #fe5341;
+}
+.load_more span {
+	width: 16px;
+	height: 8px;
+	display: inline-block;
+	background: url(../img/icon/more.png) no-repeat;
+}
+/*主体 end*/
+
+

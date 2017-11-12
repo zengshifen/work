@@ -1,0 +1,199 @@
+.lc_con{
+	width: 100%;
+	background: #f0f0f0;
+}
+.lc_con .lc_body{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+	height: 62px;
+    padding: 20px 0;
+}
+.lc_con .lc_body .lc_use{
+	font-size: 20px;
+    width: 43px;
+    padding-left: 11px;
+    border-left: 6px #fe5341 solid;
+    float: left;
+}
+.lc_con .lc_body .list{
+	color: #737373;
+    float: left;
+}
+.lc_con .lc_body dl dt{
+	width: 188px;
+    text-align: center;
+    float: left;
+}
+.lc_con .lc_body .list .tu1{
+	content: "";
+    display: block;
+    width: 100%;
+    height: 43px;
+	background: url(../img/icon/use1.png) no-repeat center;
+}
+.lc_con .lc_body .list .tu2{
+	content: "";
+    display: block;
+    width: 100%;
+    height: 43px;
+	background: url(../img/icon/use2.png) no-repeat center;
+}
+.lc_con .lc_body .list .tu3{
+	content: "";
+    display: block;
+    width: 100%;
+    height: 43px;
+	background: url(../img/icon/use3.png) no-repeat center;
+}
+.lc_con .lc_body .list .tu4{
+	content: "";
+    display: block;
+    width: 100%;
+    height: 43px;
+	background: url(../img/icon/use4.png) no-repeat center;
+}
+.lc_con .lc_body .list .tu5{
+	content: "";
+    display: block;
+    width: 100%;
+    height: 43px;
+	background: url(../img/icon/use5.png) no-repeat center;
+}
+.lc_con .lc_body .list .zi{
+	display: inline-block;
+    border-bottom: 2px solid #fe5341;
+}
+.cp_con{
+	width: 100%;
+}
+.cp_con .cp_body{
+	text-align: left;
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 20px;
+}
+.cp_con .cp_body .cp_left{
+	width: 700px;
+	float: left;
+	font-size: 16px;
+}
+.cp_con .cp_body .cp_left h3{
+    border-left:  6px #fe5341 solid;
+    padding: 15px 0 12px 12px;
+}
+.cp_con .cp_body .cp_left.title{
+	position: relative;
+    font-size: 20px;
+    color: #474747;
+    line-height: 1.6;
+}
+.cp_con .cp_body .text{
+	margin-top: 20px;
+}
+.cp_con .cp_body .text .top{
+	font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.cp_con .cp_body .text .little{
+	color: rgb(0, 112, 192);
+}
+.cp_con .cp_body .text .blue{
+	color: #0177A7;
+}
+.cp_con .cp_body .text .red{
+	color: rgb(255, 0, 0);
+}
+.cp_right{
+	width: 270px;
+	float: right;
+}
+.cp_right .gm h2{
+	display: block;
+    font-size: 1.5em;
+    border-left: 6px #fe5341 solid;  
+}
+.cp_right .gm .title {
+    position: relative;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+}
+.cp_right .gm .money{
+	color: #fe5341;
+	font-size: 40px;
+    padding: 20px 0 15px;
+}
+.cp_right .gm .buybtn{
+	color: #fff;
+    background: #fe5341;
+    display: block;
+    height: 48px;
+    border-radius: 5px;
+    line-height: 48px;
+    font-size: 18px;
+    text-align: center;
+}
+.cp_right .gm .resource{
+	color: #a3a3a3;
+	margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.cp_right .try h2{
+	display: block;
+    font-size: 1.5em;
+    border-left: 6px #fe5341 solid;  
+}
+.cp_right .try .title{
+	position: relative;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    color: #474747;
+}
+..cp_right .try .title:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 0;
+}
+.cp_right .try .img_box{
+	margin-top: 20px;
+}
+.cp_right .info{
+	margin: 10px 0 20px;
+}
+.cp_right .info h5{
+	font-size: 16px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.cp_right .info .text{
+	color: #a3a3a3;
+    font-size: 14px;
+}
+.cp_right .guanzhu{
+	padding-top: 40px;
+}
+.cp_right .guanzhu h2{
+	display: block;
+    font-size: 1.5em;
+    border-left: 6px #fe5341 solid;  
+}
+.cp_right .guanzhu .title{
+	position: relative;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    color: #474747;
+    margin-bottom: 15px;
+}
