@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.w {
+	width:320px!important;
+	margin:0 auto;
+}
+.f14 {
+	font-size:14px;
+}
+.a3 {
+	color:#f90;
+}
+.search-result {
+	height: 29px;
+	line-height: 29px;
+	text-indent: 10;
+	text-align: center;
+	display: block;
+}
+.wbox {
+	margin-top:10px;
+	font-size:15px;
+	padding-left:20px;
+	display:-webkit-box;
+}
+.wbox p{
+	margin-left:20px;
+}
+.wbox .mt5 .snPrice{
+	color:#f00;
+}

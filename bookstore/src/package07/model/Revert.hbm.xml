@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="package07.model">
+	<class name="Revert" table="留言回复表">
+		<id name="id" column="回复ID" >
+			<generator class="native"/>
+		</id>
+		<property name="content" column="回复内容" type="text"/>
+		<property name="revertTime" column="回复时间"/>
+		<!-- 映射回复对象与留言对象的一对一关系 -->
+		<one-to-one name="message" property-ref="revert"/>
+	</class>
+</hibernate-mapping>

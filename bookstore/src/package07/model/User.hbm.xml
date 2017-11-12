@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="package07.model">
+	<class name="User" table="用户表">
+		<id name="id" column="用户ID">
+			<generator class="native"/>
+		</id>
+		<!-- 鉴别器 -->		
+		<discriminator column="用户类型" type="string" length="20"/>				
+		<property name="username" column="用户名" length="30" />
+		<property name="password" column="密码" length="10" />
+		<property name="email" column="Email" length="50" />
+		<property name="face" column="头像" length="50" />		
+		<!-- 子类（通过鉴别值进行区分） -->
+		<subclass name="Guest" discriminator-value="user_guest"/>
+		<subclass name="Administrator" discriminator-value="user_admin"/>
+	</class>
+</hibernate-mapping>

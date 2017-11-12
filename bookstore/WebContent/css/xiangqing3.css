@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+}
+.biao{
+margin-bottom: 10px;	
+}
+table {
+	border-spacing: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.product_para_name {
+	width: 690px;
+}
+.product_para_name td {
+	color: #F00;
+	height: 40px;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.product_para2 {
+	background-color: #faffff;
+	width: 690px;
+}
+.product_para2 div {
+    color: #989896;
+    float: left;
+    width: 230px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.product_para2 div span {
+    color: #404042;
+}
+input, select {
+    font-size: 12px;
+}
+.product_para3 td {
+	background-color: #F9F;
+	height: 150px;
+}
+.jianjie{
+	width: 690px;
+	color: #09F;
+}

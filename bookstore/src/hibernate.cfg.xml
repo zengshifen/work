@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+	  <!-- 映射文件  -->
+	  <mapping resource="package07/model/Message.hbm.xml"/>
+	  <mapping resource="package07/model/Revert.hbm.xml"/>
+	  <mapping resource="package07/model/User.hbm.xml"/>
+	  <mapping resource="package07/model/FaceImage.hbm.xml"/>   
+  </session-factory>
+</hibernate-configuration>

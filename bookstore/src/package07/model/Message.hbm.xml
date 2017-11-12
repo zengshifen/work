@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="package07.model">
+  <class name="Message" table="留言表">
+	<id name="id" column="留言ID">
+		<generator class="native"/>
+	</id>
+	<property name="title" column="留言标题"/>
+	<property name="content" column="留言内容" type="text" />
+	<property name="createTime" column="留言时间"/>
+	<!-- 映射留言与用户的多对一关系 -->
+	<many-to-one name="user" class="User" lazy="false">
+		<column name="用户ID"/>
+	</many-to-one>
+	<!-- 映射留言与回复的一对一关系 -->
+	<many-to-one name="revert" class="Revert" unique="true" cascade="all" lazy="false">
+	    <column name="回复ID"/>
+	</many-to-one>
+  </class>
+</hibernate-mapping>

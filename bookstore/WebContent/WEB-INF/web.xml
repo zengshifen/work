@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>bookstore</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <filter>
+    <filter-name>Filter2_3</filter-name>
+    <filter-class>bookstore.Filter2_3</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>Filter2_3</filter-name>
+    <url-pattern>/include</url-pattern>
+  </filter-mapping>
+  <listener>
+    <listener-class>
+		bookstore.CounterListener
+	</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>bookstore.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/GoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BooksServlet2</servlet-name>
+    <servlet-class>bookstore.BooksServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BooksServlet2</servlet-name>
+    <url-pattern>/BooksServlet2</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>BooksServlet3</servlet-name>
+    <servlet-class>bookstore.BooksServlet3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BooksServlet3</servlet-name>
+    <url-pattern>/BooksServlet3</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>XiangServlet</servlet-name>
+    <servlet-class>bookstore.XiangServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XiangServlet</servlet-name>
+    <url-pattern>/XiangServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	  <servlet-name>GoodsServlet0421</servlet-name>
+	  <servlet-class>package04.GoodsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>GoodsServlet0421</servlet-name>
+	  <url-pattern>/buy</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+	  <servlet-name>GoodsServlet0422</servlet-name>
+	  <servlet-class>package04.CartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>GoodsServlet0422</servlet-name>
+	  <url-pattern>/cartServlet</url-pattern>
+	</servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>package05.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+ <servlet>
+   <servlet-name>ValidateYZMServlet</servlet-name>
+   <servlet-class>package05.ValidateYZMServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>ValidateYZMServlet</servlet-name>
+   <url-pattern>/validateYZMServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <servlet-class>package05.ValidateCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <url-pattern>/validatecode</url-pattern>
+  </servlet-mapping>
+ <servlet>
+   <servlet-name>ValidateServlet</servlet-name>
+   <servlet-class>package05.ValidateServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>ValidateServlet</servlet-name>
+   <url-pattern>/validateServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>package05.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ 
+ 
+
+  
+ 
+ 
+  <welcome-file-list>
+    <welcome-file>task3-2.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+ <servlet>
+	<servlet-name>UserServlet</servlet-name>
+	<servlet-class>package07.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>UserServlet</servlet-name>
+	<url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>MessageServlet</servlet-name>
+	<servlet-class>package07.servlet.MessageServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+	<servlet-name>MessageServlet</servlet-name>
+	<url-pattern>/messageServlet</url-pattern>
+  </servlet-mapping>
+	
+  <servlet>
+	<servlet-name>ManagerServlet</servlet-name>
+	<servlet-class>package07.servlet.ManagerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>ManagerServlet</servlet-name>
+	<url-pattern>/managerServlet</url-pattern>
+  </servlet-mapping>
+  
+ <filter>
+	<filter-name>CharacterEncodingFilter</filter-name>
+	<filter-class>package07.util.CharacterEncodingFilter</filter-class>
+	<init-param>
+	  <param-name>encoding</param-name>
+	  <param-value>UTF-8</param-value>
+	</init-param>
+  </filter>
+  <filter-mapping>
+	<filter-name>CharacterEncodingFilter</filter-name>
+	<url-pattern>/*</url-pattern>
+	<dispatcher>REQUEST</dispatcher>
+	<dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list> 
+  
+  
+  
+  
+  
+  
+</web-app>

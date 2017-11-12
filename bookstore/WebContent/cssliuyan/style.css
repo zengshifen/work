@@ -1,0 +1,516 @@
+
+body {
+	padding: 0px;
+	margin: 5px;
+	font-family: 宋体, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #505050;
+	text-align: center;	
+	font-weight: normal;
+	background: #4D4D4D;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body,td,th {
+	color: #000000;
+}
+body {
+	background-color: #F8F8F8;
+}
+
+a:link{color:#444444; text-decoration:none;}
+a:visited{color:#444444; text-decoration:none;}
+a:hover{color:#79A417; text-decoration:underline;}
+a:hover,a:active{color:#79A417; text-decoration:underline;}
+
+#wrapper {					/* 页面框架 */
+	width: 320px;
+	background: #FF;
+	margin: 0px auto;
+	clear: both;
+}
+
+#wrapperInner {
+	background: #E9E9E9;
+	width: 316px;
+	border: 2px solid #FF5C01;
+	clear: left;
+	float: left;
+	margin-bottom: 5px;
+}
+
+h1,h2,h3,p,form,ul {margin: 0px; padding: 0px;}
+h2 {font-size: 12px; display: inline;}
+h3 {font-size: 12px; display: inline;}
+ul {list-style-type: none;}
+li {list-style-type: none;margin-top:15px;}
+img {vertical-align: middle; border: 0px none;}
+html>body img {max-width: 100%; height: auto;}
+img.face {width: 30px; height: 30px;}
+img.emot {width: 20px; height: 20px;}
+img.imgLink {width: 15px; height: 15px;}
+.red {color: #FF0000; font-family: 宋体, Arial, Helvetica, sans-serif;}
+.autoSizeImg {clear: both; width: 100%; overflow-x: auto;}
+.normalText {font-weight: normal; font-size: 12px;}
+.noteText {font-weight: normal; color: #868686;font-family: verdana, arial, helvetica, sans-serif;}
+.Highlight {color: #6699FF; font-weight: bold;}
+.backText {clear: both;margin-top: 20px; text-align: center;}
+.keyword{font-weight: bold; color: white; background-color: #CC3333}
+.divLine {clear:both;width: 540px;height: 12px;border-top: 1px dashed #C9C9C9;}
+#smallWrapper {border: 5px solid #339CF2; background: #FFFFFF; height: 100%; text-align: left;}
+hr {clear: both; margin-right: 8px; height: 1px; border-top: 1px dashed; color: #929292;}
+hr.normalHR {clear: both; margin: 0px 18px; height: 1px; border-top: 1px dashed; color: #929292;}
+table {font-size: 12px; table-layout:fixed;}
+td{word-break: break-all;}
+.button {font: 9pt Tahoma, Verdana; COLOR: #000000; background-color: #F5F5F5}
+input,textarea,select {
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#topArea {					/* 页面顶部区域 */
+	clear: both;
+	width: 100%;
+	background: #FFFFFF;
+}
+
+#topArea-logo {				/* 顶部显示区域 */
+
+	height: 85px;
+	background: url(images/top.gif) no-repeat right top;
+	vertical-align: bottom;
+}
+
+html>body #topArea-logo {margin-bottom: 2px;}
+
+#logo {margin: 25px 0px 0px 20px;}
+
+#gbInfo {	/* 留言本信息栏（网站名、管理员名、访问统计、留言数等） */
+	clear: both;
+	margin-top: 2px;
+	padding: 4px 8px 0px 8px;
+	height: 20px;
+	background: #FF5C01;
+	color: #FFFFFF;
+	border-left: 5px solid #066;
+	border-right: 5px solid #066;
+}
+
+html>body #gbInfo {
+	margin-top: 1px;
+}
+
+#gbInfo A:link, #gbInfo A:visited, #gbInfo A:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#gbInfo A:hover {
+	text-decoration: none;
+	color: #A6D2FF;
+}
+
+#gbInfo-info {
+	float: left;
+}
+
+#gbInfo-pageName {
+	float: right;
+	font-weight: bold;
+	display: inline;
+}
+
+#nav {						/* 导航栏 */
+	padding: 0px;
+	border-top: 5px solid #FFFFFF;
+	float: left;
+}
+
+#navLink {
+	text-align: right;
+	width: 160px;
+	background: #FFFFFF;
+}
+
+#navLink li {
+	line-height: 22px;
+	margin: 0px 0px 1px 0px;
+}
+
+#navLink li a {
+	text-decoration: none;
+	color: #666666;
+	display: block;
+	background: #E9E9E9;
+	border-right: solid 6px #FF5C01;
+	padding: 0px 10px 0px 0px;
+	width: 160px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 144px;
+}
+
+#navLink li a:hover, #navLink li a.selected {
+	color: #FFFFFF;
+	background: #FF5C01;
+	border-right: solid 6px #175C82;
+}
+
+#mainContent {					/* 主内容区 */
+	float: left;
+	width: 316px;
+	background: #FBFBFB;
+	
+}
+
+.sql {margin-left:25px;}
+
+#gbcontent {
+	padding: 5px 0px 0px 0px;
+	text-align: center;
+}
+
+
+.page {						/* 页码 */
+	clear: both;
+	text-align: right;
+	margin: 0px 18px 12px 0px;
+}
+
+.page A:link, .page A:visited, .page A:active {
+
+	color: #626262;
+	text-decoration: none;
+}
+.page A:hover {
+
+	color: #111111;
+	text-decoration: underline;
+}
+.currtNum {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.adminLinks {				/* 留言下部的管理链接 */
+	clear: both;
+	margin: 5px 0px 5px 4px;
+	padding: 5px;
+	height: 15px;
+	text-align: right;
+	background: #EFEFEF;
+}
+.adminLinks A:link, .adminLinks A:visited, .adminLinks A:active   {
+	text-decoration: none;
+}
+
+.noItem {
+	clear: both;
+	margin-top: 60px;
+	padding: 10px;
+	width: 350px;
+	height: 120px;
+	border: 1px solid #838383;
+	background: #EEEEEE;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+#footer {					/* 底部 */
+	clear: both;
+	padding: 10px 0px 10px 0px;
+	height: 35px;
+	border-top: 6px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-align: center;
+	background: #F27D09;
+}
+
+/*
+                 =====================================
+                 === StyleSheet File for index.asp ===
+                 =====================================
+*/
+
+.msgArea {				/* 留言显示容器 */
+	clear:both;
+	width: 316px;
+	padding: 5px 0px 0px 0px;
+	text-align: left;
+	border-top: 1px dashed #C9C9C9;
+}
+
+.msgArea-clear {
+	clear: both;
+	visibility: hidden;
+}
+
+.msgArea-left {			/* 头像、称呼 */
+	float: left;
+	margin: 10px 0px 0px 1px;
+}
+
+.msgArea-left ul {
+	list-style-type: none;
+}
+
+.msgArea-left li {
+	width: 50px;
+	text-align: center;
+}
+
+.userFace {
+}
+
+.face-bulletin {
+	border: 0px;
+	width: 70px;
+	height: 113px;
+}
+
+.face-normal {
+	border: 0px;
+	width: 30px;
+	height: 40px;
+}
+
+.userName {
+	margin: 2px 0px 2px 0px;
+	color: #454545;
+}
+
+.userName-whisper {
+	color: #BEBEBE;
+}
+
+.userName-istop {
+	color: #669900;
+}
+
+.msgArea-right {	/* 时间、留言内容、回复 */
+	float: right;
+	width: 260px;
+	margin: 0px 2px 2px 2px;
+}
+
+.msgTitleAndTime {
+	clear: both;
+	background: #DDDDDD;
+	border: 1px solid #FF6633;
+}
+
+.msgTitle {
+	clear: both;
+	margin: 0px 4px;
+	font-weight: bold;
+}
+
+.msgTitle-whisper {
+	color: #BEBEBE;
+}
+
+.msgTitle-istop {
+	color: #669900;
+}
+
+.msgTime {
+	float: left;
+	margin: 0px 0px 0px 2px;
+}
+
+.userContact {
+	float: right;
+	margin: 0px 2px 0px 0px;
+	text-align: right;
+}
+
+.msgContent {
+	clear: both;
+	margin: 4px;
+	padding-top: 4px;
+	border-top: 1px dashed #C9C9C9;
+	white-space: normal;
+	word-wrap: break-word;
+	padding-right: 4px;
+	text-indent: 2em;
+	display: block;
+}
+
+.msgContent-whisper {
+	color: #BEBEBE;
+	padding: 10px 6px;
+}
+
+.msgReply {
+	clear: both;
+	padding: 5px;
+}
+
+.msgReply-top {
+	color: #FFFFFF;
+	background: #F47D09;
+	border-bottom: 1px dashed #000000;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+
+.msgReply-content {
+	padding: 5px;
+	color: #4F4F4F;
+	background: #EBEBEB;
+	white-space: normal;
+	word-wrap: break-word;
+	text-indent: 2em;
+	display: block;
+}
+
+/*
+                 ======================================
+                 === StyleSheet File for other page ===
+                 ======================================
+*/
+
+.input {
+	padding: 3px;
+	width: 130px;
+	font-size: 12px;
+	font-family: 宋体;
+	color: #333333;
+	height: 10px;
+	border: 1px solid #CCC;
+	background-color: #F5F5F5;
+}
+
+.row {				/* 显示表单内容的行 */
+	clear: both;
+	margin: 5px 10px 5px 0px;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+.rowk {
+	clear: both;
+	margin: 30px 10px 5px 0px;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+.row-left {
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+.row-leftl {
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+
+.row-right {
+	float: right;
+	text-align: left;
+	width: 458px;
+}
+html>body .row-right {
+	margin: 1px 0px;
+	width: 436px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 442px;
+}
+.row-right-graybg {
+	width: 414px;
+	background: #EBEBEB;
+	margin-top: 3px;
+	padding: 3px;
+}
+
+.row-right-graybgk {
+	width: 348px;
+	background: #EBEBEB;
+	margin-top: 3px;
+	padding: 3px;
+}
+
+#notice {
+	clear: both;
+	padding: 8px;
+	text-align: left;
+	background: #EFEFEF;
+}
+
+.batchArea-left {
+	float: left;
+	width: 50px;
+}
+
+.batchAreak-left {
+	float: left;
+	width: 150px;
+}
+
+.batchArea-right {
+	float: right;
+	text-align: left;
+	width: 510px;
+}
+html>body .batchArea-right {
+	width: 480px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 490px;
+}
+
+.batchArea-topRight {
+	float: right;
+	margin-top: 8px;
+	text-align: right;
+	width: 510px;
+}
+html>body .batchArea-topRight {
+	width: 480px;
+	margin-bottom: 10px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 490px;
+}
+
+#submitForm {clear: both; margin-top: 50px;} /* 提交留言的表单 */
+
+#searchForm {			/* 输入搜索内容的表单 */
+	padding: 20px 40px;
+	text-align: left;
+	height: 230px;
+}
+
+#helpContent {				/* 关于、地图内容 */
+	padding: 20px 25px;
+	text-align: left;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+}
+
+#helpContent li {
+	margin: 8px;
+	padding-left: 20px;
+	list-style: none;
+	background: url(images/list_bg.gif) no-repeat 0px 3px;
+}
+
+#loginForm {				/* 后台登陆表单 */
+	height: 290px;
+	text-align: center;
+}
+
+#errorBox {				/* 错误显示容器 */
+	padding: 50px;
+	height: 230px;
+	text-align: left;
+	color: #CC0000;
+}

@@ -1,0 +1,156 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol,li {
+	list-style: none
+}
+img {
+	border: 0;
+}
+body {
+	color: #000;
+	font-family: arial;
+	background: #FFF
+}
+.top{
+	width: 1200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+.m-headertop{
+	background-color: #c0c0c0;
+	height: 25px;
+	}
+.huanying{
+	font-size: 14px;
+	color: #F30;
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 20px;
+	}
+.m-clouds {
+	float: left;
+	margin-top: 5px;
+	width: 400px;
+}
+.m-clouds ul{
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.m-clouds ul li{
+	float: left;
+	margin-right: 25px;
+}
+.m-clouds ul li a{
+	text-decoration: none;
+
+}
+.m-clouds ul li a:hover{
+	color: #C00;
+}
+.m-cloudzx{
+	color: #000;
+}
+.m-cloudsj{
+	color: #000;
+}
+.m-denglu{
+	color: #000;
+}
+.m-m-zhuce{
+	color: #000;
+}
+.liuyan{
+	color: #000;
+}
+.m-headercenter{
+	background-color: #ccffff;
+	height: 40px;
+}
+.shousuo{
+	margin-left: 80px;
+	float: left;
+	margin-top: 5px;
+}
+.input1{
+	float:left;
+	height: 30px;
+}
+.input2{
+	float:left;
+	height: 30px;
+}
+.selected{
+	float:left;
+	height:30px;
+}
+.m-headerbottom {
+	background-color: #ccffff;
+    min-width: 980px;
+    height: 41px;
+    background-position: 0 -259px;
+    background-repeat: repeat-x;
+  
+}
+.m-mianlist {
+	background-color: #F33;
+	border-bottom: 2px solid #665656;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(102, 86, 86);
+}
+.m-mianlist li {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+}
+li {
+    list-style: none outside none;
+	padding-right: 10px;
+}
+.m-mianlist li.fr {
+    float: right;
+    margin-left: 28px;
+}
+.m-mianlist li a {
+    position: relative;
+    color: #665656;
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+.m-mianlist li a.crt {
+    color: #c9483c;
+    border-bottom: 2px solid #c9483c;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(201, 72, 60);
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+}
+.f-cb {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-left: 50px;
+}
+.m-headerson ul li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+}
